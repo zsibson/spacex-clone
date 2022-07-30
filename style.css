@@ -1,0 +1,55 @@
+.background-image {
+    background-color: rgb(45, 45, 45);
+    background-image: url('https://g.foolcdn.com/editorial/images/670475/profile-view-of-a-future-space-launch-system-at-liftoff.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+}   
+
+header {
+    position:relative;
+    display:block;
+    max-width:100%;
+    height:100%;
+    margin:0 auto;
+    padding:1rem 5rem;
+    color:#fff;
+}
+
+header h1 {
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    position: sticky;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float:right;
+}
+
+nav  li {
+    position:relative;
+    display:inline-block;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding:0 1rem;
+    text-transform: uppercase;
+
+}
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+nav > li > a:hover,
+nav > li > a:focus {
+    text-decoration: underline;
+    background-color: #eee;
+}
+
